@@ -1,0 +1,145 @@
+header {
+    background-color: blueviolet;
+    height: 2em;;
+    padding-left: 5px;
+    color: aquamarine;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    font-size: larger;
+}
+main {
+    align-items: center;
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    overflow: auto;
+    display: block;
+}
+h1 {
+    font-size: 4em;
+}
+body {
+    background-color: purple;
+    color: lightblue;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+li {
+    color: lightblue;
+}
+footer {
+    text-align: center;
+}
+nav {
+    float: left;
+    background-image: linear-gradient(to bottom, blue, #90c7e3);
+    font-weight: bold;
+    font-size: 20px;
+    height: 1000px;
+    width: 25%;
+    padding: 1.5em;
+    text-decoration: none;
+    transition: 2s linear;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    transition: 2s linear;
+}
+#wrapper {
+    width: 80%;
+    background-color: #90c7e3;
+    background-image: linear-gradient(to bottom, #90c7e3, blue);
+    border: 1px solid #000033;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2048px;
+    min-width: 960px;
+    box-shadow: 3px 3px 3px #333333;
+}
+nav a {
+    text-decoration: none;
+    transition: 2s linear;
+}
+nav a:link {
+    color: lightblue;
+    transition: 1s linear;
+}
+nav a:hover {
+    color: blueviolet;
+    transition: 1s linear;
+}
+nav a:visited {
+    color: blueviolet;
+    transition: 1s linear;
+}
+footer {
+    font-size: 70%;
+    text-align: center;
+    padding: 10px;
+    background-color: #869dc7;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
+#transport {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+    background-image: url(trip.jpeg);
+}
+#lodge {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+    background-image: url(lodge.jpeg);
+}
+#admission {
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 190px;
+    background-image: url(admission.jpeg);
+}
+table {
+	border: 2px solid #3399cc;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 0.5em;
+	border: 2px solid #3399cc;
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: blue;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 4px;
+}
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+.submit {
+    margin-left: 140px;
+}
+input[type="submit"] {
+    margin-left: 140px;
+}

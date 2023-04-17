@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header><a href="index.html">North Star Travel Agency</a></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="transportation.html">Transportation</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>
+            Contact Us Today!
+        </h2>
+        <p>
+            Required fields are marked with an asterisk *
+        </p>
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <label for="firstName">*First Name:</label>
+            <input type="text" name="firstName" id="firstName">
+            <label for="lastName">*Last Name:</label>
+            <input type="text" name="lastName" id="lastName">
+            <label for="email">*E-mail:</label>
+            <input type="email" name="email" id="email">
+            <label for="tel">Phone number:</label>
+            <input type="tel" name="tel" id="tel">
+            <h4>Please choose your transportation</h4>
+            <label>Car</label>
+            <input type="radio" name="radio" id="radio">
+            <label>Plane</label>
+            <input type="radio" name="radio">
+            <label>Train</label>
+            <input type="radio" name="radio">
+            <input type="submit" value="submit">
+        </form>
+    </main>
+</body>
+</html>
